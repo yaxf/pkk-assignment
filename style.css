@@ -315,18 +315,12 @@ footer .socials a {
     padding: 0.5rem;
 }
 
-footer .socials a:hover, footer .links a:hover {
+footer .socials a:hover, footer .count a:hover {
     color: var(--primary2);
 }
 
-footer .links {
+footer .count {
     margin-bottom: 1.2rem;
-}
-
-footer .links a {
-    color: #fff;
-    padding: 0.5rem 0.5rem;
-    font-size: 1.2rem;
 }
 
 footer .credit {

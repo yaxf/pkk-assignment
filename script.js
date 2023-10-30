@@ -17,3 +17,18 @@ document.addEventListener('click', function(e) {
         navbarNav.classList.remove('active');
     }
 });
+
+// membuat visitor counter
+document.addEventListener('DOMContentLoaded', function() {
+    var count = localStorage.getItem('visitorCount');
+    if (count) {
+        count = parseInt(count);
+    } else {
+        count = 0;
+    }
+
+    count += 1;
+    localStorage.setItem('visitorCount', count);
+
+    document.getElementById('visitorCount').innerHTML = count;
+});
