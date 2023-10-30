@@ -162,15 +162,6 @@ body{
     display: flex;
 }
 
-.about .row .about-img {
-    flex: 1 1 30rem
-}
-
-.about .row .about-img img {
-    width: 100%;
-    transform: scaleX(-1);
-}
-
 .about .row .content {
     flex: 1 1 45rem;
     padding: 0 1rem;
@@ -197,6 +188,7 @@ body{
     font-weight: 100;
     line-height: 1.6;
     margin-bottom: 0.8rem;
+    text-align: left;
 }
 
 /* menu */
