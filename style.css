@@ -171,6 +171,7 @@ body{
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-style: normal;
+    text-align: left;
 }
 
 .about .row .content h3 span {
