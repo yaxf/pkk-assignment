@@ -193,11 +193,15 @@ body{
 }
 
 /* menu */
-.menu .deskripsi {
+.menu .deskripsi, .menu .beli {
     font-size: 1.5rem;
     font-weight: 100;
     line-height: 1.6;
     max-width: 30rem;
+}
+
+.menu .beli a {
+    color: #fff;
 }
 
 .menu .row {
