@@ -146,12 +146,13 @@ body{
 }
 
 /* about */
-.about, .menu, .contact {
+.about, .menu {
     padding: 10rem 7% 1.4rem;
     min-height: 100vh;
+    animation: slideinleft 0.5s;
 
 }
-.about h2, .menu h2, .contact h2 {
+.about h2, .menu h2 {
     text-align: left;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -393,3 +394,16 @@ footer .credit a {
     }
 }
 
+/* animation text */
+@keyframes slideinleft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+    
+}
